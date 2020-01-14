@@ -1,2 +1,12 @@
 链表：考察边界的处理，对尾端的处理，不同情况的考察
 查找：时间复杂度，二分是lgn，遍历则是n，惯性思维会选择遍历，关键词‘有序’是一种提示，提示我们要选择二分，从而降低算法复杂度。
+INT_MIN INT_MAX：两个在limit.h中的宏, 32位int可以表示的最小值和最大值。
+
+常用STL算法总结
+int long double float unsign int float double 转为 string :  tostring()
+取子字符串：substr(int startpos,int substrlength);
+序列性容器内部元素的逆序（例如字符串）（线性时间复杂度）：reverse(iterator begin, iterator end);
+
+
+
+
